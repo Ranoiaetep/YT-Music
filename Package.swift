@@ -4,6 +4,9 @@ import PackageDescription
 let package = Package(
     name: "ytMusic",
     platforms: [.macOS(.v13)],
+    products: [
+        .executable(name: "yt-music", targets: ["yt-music"])
+    ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.0.0"),
     ],
