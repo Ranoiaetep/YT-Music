@@ -68,8 +68,16 @@
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "https://www.youtube.com/watch?v=4bE7use7uQc"
+            argument = "https://www.youtube.com/watch?v=KnVLqrzJoCc&amp;list=PLJHbE2m6qN3ImO2bSDBfMosngbMxtwHpb&amp;index=5"
             isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "https://www.youtube.com/playlist?list=PL3OuN2LYE3YnvLSOE1PhveRG8FZJqW9Q-"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "--no-download"
+            isEnabled = "NO">
          </CommandLineArgument>
       </CommandLineArguments>
    </LaunchAction>
